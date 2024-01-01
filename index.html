@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>QR Code Generator</h1>
+    </header>
+    <div class="container">
+        <!--todo ==================== White Container Div Starts ============================ -->
+
+        <!--todo ==================== Heading QR Code Generator Starts =================== -->
+        <label for="url">Enter text or url</label>
+        <!--todo ==================== Heading QR Code Generator Ends ====================== -->
+
+        <!--todo  ++++++++++++++ Enter text or url "Label Starts "++++++++++++++++ -->
+        <input type="text" name="url" id="url">
+        <!--todo  ++++++++++++++ Enter text or url "Label Ends "++++++++++++++++ -->
+
+        <!--todo                    Generated QR Image                                  -->
+        <img src="favicon.png" height="150px" width="150px" id="generatedQr">
+
+        <!--todo                  Buttons Arrangement Section                                 -->
+        <div class="btn-container">
+            <button class="submit" onclick="generate()">Generate</button>
+            <button class="submit" onclick="download()"">Download</button>
+        </div>
+        
+        <!--todo ==================== White Container Div Ends ============================ -->
+    </div>
+    <script src=" script.js"></script>
+</body>
+
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>QR Code Generator</h1>
+    </header>
+    <div class="container">
+        <label for="url">Enter text or url</label>
+        <input type="text" name="url" id="url">
+        <button class="submit">Generate</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> -->
